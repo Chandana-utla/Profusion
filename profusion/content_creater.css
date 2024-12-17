@@ -59,6 +59,13 @@ input[type="file"] {
    transition: border-color 0.3s ease;
 }
 
+/* Change placeholder color to white */
+input::placeholder,
+textarea::placeholder {
+   color: white; /* Set placeholder text color to white */
+   opacity: 1;   /* Ensure the placeholder is fully visible */
+}
+
 textarea {
    resize: none;
    overflow: hidden;
