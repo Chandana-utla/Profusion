@@ -64,6 +64,32 @@
                 color: #e0e0e0;
             }
         }
+
+        /* Media Queries */
+        @media (max-width: 1024px) {
+            h1 {
+                font-size: 80px;
+                letter-spacing: 6px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 60px;
+                letter-spacing: 4px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 40px;
+                letter-spacing: 2px;
+            }
+
+            h1 span {
+                font-size: 30px; /* Reduce the size of individual letters for smaller screens */
+            }
+        }
     </style>
 </head>
 
